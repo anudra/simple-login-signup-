@@ -57,7 +57,7 @@ function App() {
                    value={uemail} onChange={(e)=>setUemail(e.target.value)}/><br/>
 
             <label>Password: &emsp; </label>
-            <input type="password" placeholder='Enter Your Password' 
+            <input type="password" placeholder='Enter Your Password' required
                    value={upass} onChange={(e)=>setUpass(e.target.value)}/><br/><br/>
 
             <button type="submit">Login</button>
@@ -73,15 +73,15 @@ function App() {
                                 setCPage("login");resetPage();}}>
           
             <label>Username: &emsp; </label>
-            <input type="text" placeholder='Enter Your Name' 
+            <input type="text" placeholder='Enter Your Name' required 
                  value={uname} onChange={(e)=>setUname(e.target.value)}/><br/>
             
             <label>Email: &emsp; </label>
-            <input type="email" placeholder='Enter Your Email Id' 
+            <input type="email" placeholder='Enter Your Email Id' required 
                    value={uemail} onChange={(e)=>setUemail(e.target.value)}/><br/>
 
             <label>Password: &emsp; </label>
-            <input type="password" placeholder='Enter Your Password' 
+            <input type="password" placeholder='Enter Your Password' required
                    value={upass} onChange={(e)=>setUpass(e.target.value)}/><br/><br/>
 
             <button type="submit">Sign Up</button>
