@@ -42,18 +42,10 @@ body {
   font-family: Arial, sans-serif;
   background-color: rgb(41, 178, 247);
   margin: 0;
-  padding-right: 150px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   height: 100vh;
-}
-
-
-.main h1 {
-  color: #3dbeed;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 label {
